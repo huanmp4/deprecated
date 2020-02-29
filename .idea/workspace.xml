@@ -5,9 +5,435 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1a9fb-64dd-4ec4-b20a-4edbcfda3c4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/front/templates/course/course_detail.html" afterPath="$PROJECT_DIR$/front/templates/course/course_detail.html" />
-      <change beforePath="$PROJECT_DIR$/front/templates/course/course_index.html" afterPath="$PROJECT_DIR$/front/templates/course/course_index.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/xfz02.iml" afterPath="$PROJECT_DIR$/.idea/xfz02.iml" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/35c7992c89418154372ad99f472fdfb8b0408002/search.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/404a9924935b99376ccc9a0f16d18862817a6530/1122.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/480899fd89c27f8c9561e732fe462d478b7708e6/payinfo.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/5993f10b27cdb3f2805bca6ecc5753c87cd7f5cb/discover.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/5993f10b27cdb3f2805bca6ecc5753c87cd7f5cb/index.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/5993f10b27cdb3f2805bca6ecc5753c87cd7f5cb/news_detail.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7988142e87c185163d628295211aac0040451bdc/body.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7988142e87c185163d628295211aac0040451bdc/constants.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7988142e87c185163d628295211aac0040451bdc/footer.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7988142e87c185163d628295211aac0040451bdc/header.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7988142e87c185163d628295211aac0040451bdc/init.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7988142e87c185163d628295211aac0040451bdc/news_list.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7b82e08ccb4f1fcb1d395a0fcb11638f9ef5c57c/course_detail.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7b82e08ccb4f1fcb1d395a0fcb11638f9ef5c57c/course_index.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/7b82e08ccb4f1fcb1d395a0fcb11638f9ef5c57c/course_nav.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/adaf640b38057a0c2badec05a5d961b2c9ab990a/banner.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/c2231082f709219d3c1de72b29f78d633ad94317/constants.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/c2231082f709219d3c1de72b29f78d633ad94317/init.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/c2231082f709219d3c1de72b29f78d633ad94317/login.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/.sass-cache/e5065fff738f9a9f17dd15998c3b538c458cedf6/test2.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/f1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/g1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/g2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/g3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/g4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/g5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/g6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/g7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/p1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/p2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/p3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/t1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/t2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/t3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/mumu/images/t4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/party/images/pic1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/party/images/pic2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/party/images/pic3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/party/images/pic4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/party/images/pic5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/party/images/pic6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/district/party/images/shouji.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/AdminLTELogo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/avatar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/avatar04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/avatar2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/avatar3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/avatar5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/boxed-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/boxed-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/credit/american-express.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/credit/cirrus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/credit/mastercard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/credit/mestro.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/credit/paypal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/credit/paypal2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/credit/visa.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/default-150x150.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/photo1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/photo2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/photo3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/photo4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/prod-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/prod-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/prod-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/prod-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/prod-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user1-128x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user2-160x160.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user3-128x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user4-128x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user5-128x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user6-128x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user7-128x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/dist/img/user8-128x128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-brands-400.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-brands-400.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-brands-400.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-brands-400.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-brands-400.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-regular-400.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-regular-400.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-regular-400.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-regular-400.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-regular-400.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-solid-900.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-solid-900.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-solid-900.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-solid-900.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/adminLTE/plugins/fontawesome-free/webfonts/fa-solid-900.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/123.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582822129974jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582822297068.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582822522407.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582822768632.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582822835051.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873209594.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873243245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873278641.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873294197.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873566460.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873600537.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873619641.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873687926.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873729510.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873849235.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582873895397.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582874090867.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582874097624.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582874224662.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582874240022.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/1582883086921.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/383aac7f872a84ca16642d60b99387d6.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/strenth.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/timg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/卡通.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/战斗机.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/source/client_image/未标题-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/front/temp/npm-v3.10.3.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/media/123.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-install" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-install.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-install.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-publish" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-publish.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-publish.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-gyp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-gyp.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-gyp.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-install" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-install.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-install.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-publish" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-publish.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-publish.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sassgraph" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sassgraph.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sassgraph.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which.ps1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-colors/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-colors/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-colors/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-colors/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-colors/types/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-styles/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-styles/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-styles/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-styles/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-wrap/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-wrap/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-wrap/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-wrap/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-diff/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-diff/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-diff/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-diff/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-union/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-union/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-union/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/arr-union/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assign-symbols/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assign-symbols/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assign-symbols/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assign-symbols/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/index.js.flow" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/templates.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/types/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/conversions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-convert/route.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/float.patch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/lib/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-string-regexp/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-string-regexp/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/escape-string-regexp/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extend-shallow/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extend-shallow/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extend-shallow/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extend-shallow/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-flag/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-flag/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-flag/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-flag/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extendable/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extendable/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extendable/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extendable/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extendable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-object/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-object/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-object/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-object/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-plain-object/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isobject/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isobject/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isobject/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isobject/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isobject/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.clonedeep/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.clonedeep/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.clonedeep/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.clonedeep/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/plugin-error/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/plugin-error/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/plugin-error/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/plugin-error/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/plugin-error/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/license.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/.babelrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/.eslintignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/.eslintrc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/dist/qiniu.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/dist/qiniu.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/jest.config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/__mock__/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/__tests__/image.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/__tests__/pool.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/base64.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/compress.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/image.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/observable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/pool.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/statisticsLog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/upload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/src/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/config.json.example" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/common/common.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/component/ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/component/widget.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/images/default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/images/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/js/Moxie.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/js/Moxie.xap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/js/moxie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/js/moxie.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/js/plupload.full.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/scripts/uploadWithForm.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/scripts/uploadWithOthers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/scripts/uploadWithSDK.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo1/style/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo2/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo2/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo2/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo2/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo2/webpack.config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo3/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo3/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/demo3/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/test/server.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/webpack.common.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/webpack.dev.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qiniu-js/webpack.prod.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/destroy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable-browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/replace-ext/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/replace-ext/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/replace-ext/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/replace-ext/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/lib/string_decoder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/node_modules/ansi-regex/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/node_modules/ansi-regex/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/node_modules/ansi-regex/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/node_modules/ansi-regex/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/through2/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/through2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/through2/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/through2/through2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/History.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/node.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/dist/source-map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/dist/source-map.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/array-set.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/base64.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/binary-search.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/mapping-list.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/quick-sort.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/source-node.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/lib/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/node_modules/source-map/source-map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vinyl-sourcemaps-apply/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xtend/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xtend/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xtend/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xtend/immutable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xtend/mutable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xtend/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xtend/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/test1.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xfz02/.settings.py.swp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/front/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,110 +471,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="course_detail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/source/js/cms/course_detail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/course/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course_index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/templates/course/course_index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/templates/news/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views_of_course.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/views_of_course.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/news/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="111" column="12" lean-forward="true" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cms/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course_detail.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/templates/course/course_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -241,7 +564,6 @@
         <option value="$PROJECT_DIR$/front/source/js/index.js" />
         <option value="$PROJECT_DIR$/front/source/js/login_ajax_process.js" />
         <option value="$PROJECT_DIR$/front/source/css/common/footer.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/front/source/js/cms.js" />
         <option value="$PROJECT_DIR$/front/gulpfile.js" />
         <option value="$PROJECT_DIR$/front/source/js/news.js" />
@@ -258,6 +580,7 @@
         <option value="$PROJECT_DIR$/apps/news/models.py" />
         <option value="$PROJECT_DIR$/front/templates/course/course_index.html" />
         <option value="$PROJECT_DIR$/front/templates/course/course_detail.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -278,7 +601,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="53" />
     <option name="y" value="140" />
     <option name="width" value="1827" />
@@ -309,74 +632,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz01" type="462c0819:PsiDirectoryNode" />
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -396,7 +653,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Tequila/django/xfz01/front/templates/news/base.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../emotion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -611,22 +868,21 @@
     <option name="totallyTimeSpent" value="8186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1014" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1014" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097949885" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32346243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14179105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1433902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -678,62 +934,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/district/css/register/constants.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/source/css/search/search.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/source/css/course/course_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/district/css/news/index.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="196" column="22" lean-forward="true" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/source/js/login_ajax_process.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="248" column="2" lean-forward="false" selection-start-line="248" selection-start-column="2" selection-end-line="248" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/source/css/common/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/source/css/news/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/cms/news/release.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -799,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1824">
           <caret line="96" column="32" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,13 +1170,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/source/js/cms/course_detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="646">
           <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding />
         </state>
@@ -1001,7 +1191,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/news/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
+        <state relative-caret-position="513">
           <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
@@ -1025,42 +1215,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="361">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/news/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="608">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="111" column="12" lean-forward="true" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+        <state relative-caret-position="1710">
+          <caret line="111" column="12" lean-forward="false" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/course/course_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/course/course_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="361">
+          <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/123.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervisor.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.uwsgi.ini.backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xfz02/.settings.py.swp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
