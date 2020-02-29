@@ -52,7 +52,8 @@
         }
 
         .auth-box{
-            float: right;
+            float: left;
+            margin-left:100px;
             line-height: $navHeight;
             height: $navHeight;
             color: #fff;
