@@ -6,10 +6,10 @@ var concat = require('gulp-concat');
 var imagemin = require('gulp-imagemin');
 var bs = require('browser-sync').create();
 var util = require('gulp-util');
-// var sass = require('gulp-sass');
+var sass = require('gulp-sass');
 
 //此处使用的是ruby+gem，安装sass，且在npm安装npm install gulp-ruby-sass
-var sass = require('gulp-ruby-sass');
+// var sass = require('gulp-ruby-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
 function greet(){
@@ -18,7 +18,7 @@ function greet(){
 
 var path = {
     'html':'./templates/**/',
-    'css':'./source/css/**/',
+    'css':'./source/css/**/*.scss',
     'js':'./source/js/',
     'images':'./source/images/',
     'css_district':'./district/css/',
@@ -39,7 +39,8 @@ function html(){
 //         .pipe(sass().on('error',sass.logError))
 // sass(path.css+'*.scss').on("error",sass.logError)
 function css(){
-    return sass(path.css+'*.scss').on("error",sass.logError)
+    return src(path.css)
+        .pipe(sass().on('error',sass.logError))
         .pipe(cssnano())
         .pipe(rename({'suffix':'.min'}))
         .pipe(dest(path.css_district))
@@ -78,10 +79,11 @@ function task(){
     html();
 }
 //监听
-const watcher = watch([path.html+'*.html',path.js+'*.js',path.css+'*.scss',path.images+'*.*']);
+const watcher = watch([path.html+'*.html',path.js+'*.js',path.css,path.images+'*.*']);
 
-watcher.on('change',function(path,stats){
-    console.log(`File ${path} was add`);
+watcher.on('change',function(paths,stats){
+    console.log(`File ${paths} was add`);
+    console.log('path:',paths);
     task();
 });
 watcher.on('add',function(path,stats){
