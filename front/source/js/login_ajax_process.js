@@ -18,8 +18,7 @@ function Signin(){
     this.signupTelephone = this.signupGroup.find('input[name="telephone"]');
     this.msCaptcha = this.signupGroup.find('input[name="img-captcha-code"]');
     this.testNum = 'test1112';
-    this.nav = $('#nav-ul-bar li');
-    console.log('什么意思');
+    // this.nav = $('#nav-ul-bar');
 }
 //登录hover more box
 Signin.prototype.listenMoreBoxHover = function(){
@@ -38,14 +37,33 @@ Signin.prototype.listenMoreBoxHover = function(){
 
 //点击banner拦添加active
 Signin.prototype.navEvent = function(){
-    var self = this;
-    self.nav.click(function(){
-        console.log('run nav0');
-        console.log('run nav0',self.nav);
-        self.nav.removeClass("active");
-        $(this).addClass("active");
-    })
+    var url = window.location.href;
+    var protocol = window.location.protocol;
+    var host = window.location.host;
+    // http: + // + 127.0.0.1:8000
+    var domain = protocol + '//' + host;
+    var path = url.replace(domain,'');
+    var navLis = $(".nav li");
+    navLis.each(function (index,element) {
+        // js => $(js对象)
+        var li = $(element);
+        var aTag = li.children("a");
+        var href = aTag.attr("href");
+        if(href === path){
+            li.addClass("active");
+            return false;
+        }
+    });
 };
+// Signin.prototype.navEvent = function(){
+//     var self = this;
+//     self.nav.children().click(function(){
+//         console.log('run nav0');
+//         console.log('run nav0',self.nav);
+//         var li = $(this);
+//         li.addClass('active').siblings().removeClass('active');
+//     })
+// };
 
 
 

@@ -13,14 +13,13 @@ from urllib import parse
 class SearchPagi(View):
     def get(self,request):
         content = request.GET.get('content')
-        each_page = request.GET.get('each_page',3)
-        p_for_web = int(request.GET.get('p_for_web',1))
-        newses = News.objects.select_related('category','author').all()
+        each_page = request.GET.get('each_page',3) #每页显示3篇
+        p_for_web = int(request.GET.get('p_for_web',1)) #获取第几页
+        newses = News.objects.select_related('category','author').all()#获取所有数据
         if content:
             newses = newses.filter(Q(title__icontains=content)|Q(content__icontains=content))
-        p = Paginator(newses,each_page)
-
-        page = p.page(p_for_web)
+        p = Paginator(newses,each_page) #组成每页显示3篇的数据
+        page = p.page(p_for_web) #然后显示第几页的数据
         source_urlencode = {
             'content':content or '',
             'each_page':each_page or ''
@@ -42,7 +41,36 @@ class SearchPagi(View):
         #下面最新两条固定显示
         news_fixed = News.objects.all().select_related('category','author').order_by('pub_time')[:2]
 
+        #===========
+        #获取left和right 的页码
+        around_count = 2
+        current_page = page.number
+        num_page = p.num_pages
+
+        left_has_more = False  # 左边还有没有未显示的页码
+        right_has_more = False
+        # 判断当前页是不是比4小，比如当前页是第二页，他就不能存在 0.1.2.3.4这种情况。
+        if current_page <= around_count + 2:
+            left_page = range(1, current_page)
+        else:
+            left_has_more = True
+            left_page = range(current_page - around_count, current_page)
+        if current_page >= num_page - around_count - 1:
+            right_page = range(current_page + 1, num_page + 1)
+        else:
+            right_has_more = True
+            right_page = range(current_page + 1, current_page + 3)
+        left_right_page = {
+            'left_pages': left_page,
+            'right_pages': right_page,
+            'current_page': current_page,
+            'left_has_more': left_has_more,
+            'right_has_more': right_has_more,
+        }
+        #==========
+
         context = {'page':page,'p':p,'urlencode':urlencode,'each_page_urlencode':each_page_urlencode,'title_urlencode':title_urlencode,'news_fixed':news_fixed}
+        context.update(left_right_page)
         return render(request,'search/search.html',context)
     def post(self,request):
         pass

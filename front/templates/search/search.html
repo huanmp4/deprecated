@@ -61,10 +61,35 @@
                             <a class="page-link" href="javascript:void(0)" tabindex="-1" aria-disabled="true">上一页</a>
                         </li>
                         {% endif %}
-                        {% for p in p.page_range %}
 
-                                <li {% if p == page.number %} class="page-item active" {% else %} class="page-item" {% endif %}  aria-current="page"><a class="page-link" href="?p_for_web={{ p }}{{ urlencode }}">{{ p }}<span class="sr-only">{{ p.validate_number }}(current)</span></a></li>
+                        {# 左边还有更多？ #}
+                        {% if left_has_more %}
+                            <li class="page-item"  aria-current="page"><a class="page-link" href="?p_for_web=1{{ urlencode }}">1</a></li>
+                            <li><a href="javascript:void(0);">...</a></li>
+                        {% endif %}
+
+                        {# 左边页码 #}
+                        {% for p in left_pages %}
+                            <li class="page-item"  aria-current="page"><a class="page-link" href="?p_for_web={{ p }}{{ urlencode }}">{{ p }}<span class="sr-only">(current)</span></a></li>
+
                         {% endfor %}
+
+{#                        中间页码#}
+                        <li class="page-item active" aria-current="page"><a class="page-link" href="?p_for_web={{ p }}{{ urlencode }}">{{ current_page }}<span class="sr-only">{{ p.validate_number }}(current)</span></a></li>
+
+                        {# 右边页码 #}
+                        {% for p in right_pages %}
+                            <li class="page-item"  aria-current="page"><a class="page-link" href="?p_for_web={{ p }}{{ urlencode }}">{{ p }}<span class="sr-only">(current)</span></a></li>
+                        {% endfor %}
+{#                        {% for p in p.page_range %}#}
+{#                            <li {% if p == page.number %} class="page-item active" {% else %} class="page-item" {% endif %}  aria-current="page"><a class="page-link" href="?p_for_web={{ p }}{{ urlencode }}">{{ p }}<span class="sr-only">{{ p.validate_number }}(current)</span></a></li>#}
+{#                        {% endfor %}#}
+
+                        {% if right_has_more %}
+                            <li><a href="javascript:void(0);">...</a></li>
+                            <li class="page-item"  aria-current="page"><a class="page-link" href="?p_for_web={{ p.num_pages }}{{ urlencode }}">{{ p.num_pages }}</a></li>
+                        {% endif %}
+
                         {% if page.has_next %}
                         <li class="page-item">
                             <a class="page-link" href="?p_for_web={{ page.next_page_number }}{{ urlencode }}">下一页</a>
