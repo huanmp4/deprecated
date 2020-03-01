@@ -44,7 +44,7 @@
                     <ul class="auth-more-box" >
                         <li class="group-triangel"><i class="icon-triangle iconfont"></i></li>
                         {% if user.is_staff %}
-                            <li><a href="{% url 'cms:home' %}" class="personal-profile1">后台管理</a></li>
+                            <li><a href="{% url 'cms:home' %}" target="_blank" class="personal-profile1">后台管理</a></li>
                         {% endif %}
                         <li><a href="#" class="'history">历史记录</a></li>
                         <li><a href="{% url 'register:logoutView' %}" class="'log-out-now" >退出</a></li>
