@@ -2,38 +2,53 @@
 {% extends 'news/base.html' %}
 
 {% block body %}
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_681895_w5poic4qj6vfgvi.css">
+{% if user.is_superuser %}
+    <div class="if-login">
 
-    <link rel="stylesheet" href="{% static 'css/course/course_index.min.css' %}">
-    <div class="main">
-        <div class="course-nav">
-            <div class="nav-container">
-                <h3 class="title">在线视频</h3>
-                <ul class="nav-list">
-                    <li class="active"><a href="#">最新视频</a></li>
+        <link rel="stylesheet" href="//at.alicdn.com/t/font_681895_w5poic4qj6vfgvi.css">
 
+        <link rel="stylesheet" href="{% static 'css/course/course_index.min.css' %}">
+        <div class="main">
+            <div class="course-nav">
+                <div class="nav-container">
+                    <h3 class="title">在线视频</h3>
+                    <ul class="nav-list">
+                        <li class="active"><a href="#">最新视频</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="wrapper">
+                <ul class="course-list">
+                    {% for course in courses %}
+                        <li class="course-list-li" style="float:left">
+                            <a href="#">
+                                <div class="thumbnail-group">
+                                    <a href="{% url 'course:course_detail' course.id %}"><img src="{{ course.cover_url }}" alt="" class="thumbnial"></a>
+                                </div>
+                                <div class="course-info">
+                                    <p class="title">{{ course.title }}</p>
+                                    <p class="author">{{ course.teacher.name }}</p>
+                                    <p class="price-group">
+                                        <span class="pay">{{ course.price }}</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
-        <div class="wrapper">
-            <ul class="course-list">
-                {% for course in courses %}
-                    <li class="course-list-li" style="float:left">
-                        <a href="#">
-                            <div class="thumbnail-group">
-                                <a href="{% url 'course:course_detail' course.id %}"><img src="{{ course.cover_url }}" alt="" class="thumbnial"></a>
-                            </div>
-                            <div class="course-info">
-                                <p class="title">{{ course.title }}</p>
-                                <p class="author">{{ course.teacher.name }}</p>
-                                <p class="price-group">
-                                    <span class="pay">{{ course.price }}</span>
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
+
+    </div>
+
+{% else %}
+    <div class="no-login">
+        <div  style="position:absolute;left:50%;margin-left:-350px; background:#D3EDDA;width:700px;height:140px;margin-top:200px;border-radius: 9px;padding:10px;">
+            <h1 style="color:#447F50">Forbidden</h1>
+            <p style="color:#6C987A;margin-top:40px">这个是私人影院，不允许公开观看，如想非常想观看，请联系管理员</p>
         </div>
     </div>
+{% endif %}
+
 {% endblock %}

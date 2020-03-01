@@ -19,6 +19,7 @@ class SearchPagi(View):
         if content:
             newses = newses.filter(Q(title__icontains=content)|Q(content__icontains=content))
         p = Paginator(newses,each_page)
+
         page = p.page(p_for_web)
         source_urlencode = {
             'content':content or '',
