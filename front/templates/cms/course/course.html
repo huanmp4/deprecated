@@ -1,7 +1,7 @@
 {% extends 'cms/base.html' %}
 
 {% block title %}
-    发布课程
+    发布电影
 {% endblock %}
 
 {% block style %}
@@ -47,11 +47,23 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="video-input">视频地址：</label>
-                                    <input type="text" class="form-control" name="video_url" id="video-input" placeholder="视频地址">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="video-input" placeholder="视频">
+                                        <span class="form-group-append">
+                                            <label for="video-BTN" class="btn btn-default btn-file">上传视频
+                                            <input type="file" hidden="hidden" id="video-BTN"></label>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="cover-input">封面图：</label>
-                                    <input type="text" class="form-control" name="cover" id="cover-input" placeholder="封面图">
+                                    <label for="picture-for-thumbnail">缩略图</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="picture-for-thumbnail" >
+                                        <span class="form-group-append">
+                                            <label for="thumbnail-btn" class="btn btn-default btn-file">上传图片
+                                            <input type="file" hidden="hidden" id="thumbnail-btn"></label>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="price-input">价格：</label>

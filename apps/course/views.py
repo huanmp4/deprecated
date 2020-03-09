@@ -4,10 +4,27 @@ from apps.course.models import Course,Teacher,CourseCategory
 from django.views.generic import View
 from utils import restful
 from .models import CourseOrder
+from django.conf import settings
+import time,os
+
 def course_index(request):
     course = Course.objects.all()
     context = {'courses':course}
     return render(request,'course/course_index.html',context=context)
+
+
+def course_upload_picture(request):
+    file = request.FILES.get('file')
+    print('dedaole form',file)
+    file_name = file.name.split('.')[1]
+    file_name = str(int(time.time())) + '.' + file_name
+    with open(os.path.join(settings.CLIENTIMAGE_ROOT + '/' + file_name),'wb') as f:
+        for chunk in file.chunks():
+            f.write(chunk)
+    # 只能加settings中字符串的目录，不能是os.path开头的
+    url = request.build_absolute_uri(settings.STATIC_URL + 'source/' + 'client_image/' + file_name)
+    url = {'url':url}
+    return restful.result(200,data=url)
 
 
 def course_detail(request,course_id):

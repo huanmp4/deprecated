@@ -10,4 +10,5 @@ urlpatterns = [
     path('notify_view',views.notify_view,name = 'notify_view'),
     path('course_pay/<int:course_id>',views.course_pay,name = 'course_pay'),
     path('login_requireds',views.login_requireds,name = 'login_requireds'),
+    path('course_upload_picture',views.course_upload_picture,name = 'course_upload_picture'),
 ]
