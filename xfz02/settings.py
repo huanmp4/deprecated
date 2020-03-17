@@ -192,7 +192,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'front','district'),
     os.path.join(BASE_DIR,'front','source'),
-    os.path.join(BASE_DIR,'front','templates')
+    os.path.join(BASE_DIR,'front','templates'),
+    os.path.join(BASE_DIR,'front','templates','legendtaotian')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static_dist')
