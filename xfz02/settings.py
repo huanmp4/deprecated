@@ -193,7 +193,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'front','district'),
     os.path.join(BASE_DIR,'front','source'),
     os.path.join(BASE_DIR,'front','templates'),
-    os.path.join(BASE_DIR,'front','templates','legendtaotian')
+    os.path.join(BASE_DIR,'front','templates','legendOfMini')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static_dist')
