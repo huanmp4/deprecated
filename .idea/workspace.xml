@@ -47,8 +47,8 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/templates/legendtaotian/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
+            <state relative-caret-position="285">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -937,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/legendtaotian/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="41" column="82" lean-forward="false" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
+        <state relative-caret-position="285">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
