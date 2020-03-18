@@ -132,12 +132,12 @@ body{background:#efe6d7 ;color: #000;min-width: 1200px;}
 	.section1 {overflow:hidden;width:100%;margin-top:-00px;z-index:99999999999999999;}
 .section1 .inc{position:relative;width:1362px;height:100px;margin:0 auto;top:0px;}
 	.download{float:left;width:1200px;height:100px;}
-		.btn_1{width:327px;height:100px;text-align:center;font-size:13px;color:#000;margin-left:0px;background:url("../images/btn1.png"/*tpa=http://www.7717sf109.cn/images/btn1.png*/) no-repeat left top;display:block;transition:letter-spacing 0.3s ease-in;}
-		.btn_1:hover{background:url("../images/btn1-h.png"/*tpa=http://www.7717sf109.cn/images/btn1-h.png*/) no-repeat left top;letter-spacing:4px;}
-		.btn_2{width:327px;height:100px;text-align:center;font-size:13px;color:#000;margin-top:-100px;margin-left:350px;background:url("../images/btn2.png"/*tpa=http://www.7717sf109.cn/images/btn2.png*/) no-repeat right top;display:block;transition:letter-spacing 0.3s ease-in;}
-		.btn_2:hover{background:url("../images/btn2-h.png"/*tpa=http://www.7717sf109.cn/images/btn2-h.png*/) no-repeat left top;letter-spacing:4px;}
-		.btn_3{width:327px;height:100px;text-align:center;font-size:13px;color:#000;margin-top:-100px;margin-left:700px;background:url("../images/btn3.png"/*tpa=http://www.7717sf109.cn/images/btn3.png*/) no-repeat right top;display:block;transition:letter-spacing 0.3s ease-in;}
-		.btn_3:hover{background:url("../images/btn3-h.png"/*tpa=http://www.7717sf109.cn/images/btn3-h.png*/) no-repeat left top;letter-spacing:4px;}
+		.btn_1{width:327px;height:100px;text-align:center;font-size:13px;color:#000;margin-left:0px;background:url("/static/legendOfMin/images/btn1.png") no-repeat left top;display:block;transition:letter-spacing 0.3s ease-in;}
+		.btn_1:hover{background:url("/static/legendOfMin/images/btn1-h.png") no-repeat left top;letter-spacing:4px;}
+		.btn_2{width:327px;height:100px;text-align:center;font-size:13px;color:#000;margin-top:-100px;margin-left:350px;background:url("/static/legendOfMin/images/btn2.png") no-repeat right top;display:block;transition:letter-spacing 0.3s ease-in;}
+		.btn_2:hover{background:url("/static/legendOfMin/images/btn2-h.png") no-repeat left top;letter-spacing:4px;}
+		.btn_3{width:327px;height:100px;text-align:center;font-size:13px;color:#000;margin-top:-100px;margin-left:700px;background:url("/static/legendOfMin/images/btn3.png") no-repeat right top;display:block;transition:letter-spacing 0.3s ease-in;}
+		.btn_3:hover{background:url("/static/legendOfMin/images/btn3-h.png") no-repeat left top;letter-spacing:4px;}
 
 .footer { margin:0px 0 0 0; background:#000;}
 .footer_1 { margin:0 auto; width:1200px; overflow:hidden;}
