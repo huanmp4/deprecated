@@ -12,3 +12,6 @@ class Address(models.Model):
     pub_time = models.DateTimeField(auto_now_add='null')
     class Meta:
         ordering =['-pub_time']
+
+
+

@@ -1,7 +1,8 @@
 from django.urls import path
-from . import views,views_of_course,views_of_staff
+from . import views,views_of_course,views_of_staff,views_of_legend
 from django.conf.urls.static import static
 from django.conf import settings
+
 app_name = 'cms'
 urlpatterns = [
     path('home',views.home,name = 'home'),
@@ -38,4 +39,10 @@ urlpatterns += [
 urlpatterns += [
     path('staff',views_of_staff.staff,name='staff'),
     path('StaffAdd',views_of_staff.StaffAdd.as_view(),name='StaffAdd'),
+]
+
+
+#传奇的url
+urlpatterns += [
+    path('legend',views_of_legend.legend,name="legend")
 ]

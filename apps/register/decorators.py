@@ -11,7 +11,7 @@ def superuser_required(viewfunc):
             return viewfunc(request,*args,*kwargs)
         else:
             raise Http404
-    print('viewfunc:',viewfunc)
+
     return decorator
 
 #普通required装饰器

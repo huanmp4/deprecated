@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['122.114.157.40','106.13.7.98','127.0.0.1','ambulance176.site',
 
 INSTALLED_APPS = [
     'apps.legend',
+    'apps.legendattach',
     'apps.testapp',
     'apps.register',
     'apps.news',
@@ -54,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
