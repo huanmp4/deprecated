@@ -82,7 +82,7 @@ def visit(request):
         invalid_save_address_by_138ip(ip=ip_addr2, name=name)
 
 
-    return HttpResponseRedirect('http://ambulance176.site/legend')
+    return HttpResponseRedirect('http://cg.yy1ng.com/')
 
 def invalid_save_address_by_138ip(ip,name):
     ip = ip or '无'
