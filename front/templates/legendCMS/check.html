@@ -57,6 +57,12 @@
       <td>{{ c.click }}次</td>
         {% if c.name == 'jjj' %}
           <td>{{ jjjenter }}人</td>
+        {% elif c.name == '2hb' %}
+            <td>{{ cq2hbenter }}人</td>
+        {% elif c.name == '9pk' %}
+            <td>{{ cq9pkenter }}人</td>
+        {% elif c.name == '6xq' %}
+            <td>{{ cq6xqenter }}人</td>
         {% else %}
             <td></td>
         {% endif %}
@@ -64,8 +70,9 @@
   {% endfor %}
   </tbody>
 </table>
-{##}
-{##}
+
+
+
 {#<table class="table table-striped">#}
 {#  <thead>#}
 {#    <tr>#}
@@ -109,12 +116,8 @@
             {% endfor %}
             </tbody>
         </table>
-
     </div>
-
 </div>
-
-
 
 </body>
 </html>

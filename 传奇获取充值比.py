@@ -44,20 +44,13 @@ class Synchronize:
         #     if now > n/2:
         #         now -= n/2
         #         n = n/2
+        #半小时
         if now > 1800:
             now -= 1800
+            #15分钟
         if now > 900:
             now -= 900
-        if now > 450:
-            now -= 450
-        if now > 225:
-            now -= 225
-        if now > 112.5:
-            now -= 112.5
-        if now > 60.5:
-            now -= 60.5
-        if now > 30.5:
-            now -= 30.5
+
         print('本次数据更新时间剩余',int(now/60),'分钟','然后每',int(now/60),'分钟整点更新一次')
         #Timer中函数不能加括号
         #错误例子Timer(5, fn_HalfHour（）)
@@ -286,19 +279,19 @@ class Synchronize:
 if __name__ == "__main__":
     continues = True
 
-    # category = input('请输入服务端目录，例如：D:\\MirServser\\ ：')
-    # try:
-    #     with open('%sMir200\Envir\QuestDiary\HF元宝\%s.txt' % (category, 20), 'r') as name:
-    #         file = name.readlines()
-    # except FileNotFoundError:
-    #     category = input('输入有误，请确认目录正常或已创建了元宝路径，例如：D:\\MirServser\\ ：')
-    #     try:
-    #         with open('%sMir200\Envir\QuestDiary\HF元宝\%s.txt' % (category, 20), 'r') as name:
-    #             file = name.readlines()
-    #     except FileNotFoundError:
-    #         print('超过错误次数，请重新打开本程序')
-    #
-    # gold = input('请输入元宝目录，例如：D:\MirServer\Mir200\Envir\QuestDiary\HF元宝\ ，如默认‘HF元宝’的目录请直接按回车：')
+    category = input('请输入服务端目录，例如：D:\\MirServser\\ ：')
+    try:
+        with open('%sMir200\Envir\QuestDiary\HF元宝\%s.txt' % (category, 20), 'r') as name:
+            file = name.readlines()
+    except FileNotFoundError:
+        category = input('输入有误，请确认目录正常或已创建了元宝路径，例如：D:\\MirServser\\ ：')
+        try:
+            with open('%sMir200\Envir\QuestDiary\HF元宝\%s.txt' % (category, 20), 'r') as name:
+                file = name.readlines()
+        except FileNotFoundError:
+            print('超过错误次数，请重新打开本程序')
+
+    gold = input('请输入元宝目录，例如：D:\MirServer\Mir200\Envir\QuestDiary\HF元宝\ ，如默认‘HF元宝’的目录请直接按回车：')
 
 
     initTime = datetime.datetime.now().replace(minute=0,second=0).timestamp()
@@ -310,30 +303,3 @@ if __name__ == "__main__":
 
 
 #每10分钟发一次数据
-
-
-
-#获取其帐号和角色名：
-def getCharaterName(self):
-    num = 0
-    ip = "183.254.225.122"
-    with codecs.open("ip.txt","r",encoding="ansi") as f:
-        data = f.readlines()
-        for d in data:
-            m = str(re.findall(ip,d)).replace('[\'','').replace('\']','')
-            if m == ip:
-                print(d)
-                account = re.search('人物登录: 帐号:',d).span()
-                charater = re.search('角色:',d).span()
-                begin = int(account[1])
-                end = int(charater[0]-1)
-                print(begin)
-                print(end)
-                print(d[begin:end])
-                print('ok')
-                num +=1
-                break
-
-
-
-

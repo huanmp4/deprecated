@@ -6,6 +6,8 @@ from .models import allIP,Array,WebSite,WebSiteClick
 from django.db.models import F
 from utils import restful
 
+
+#远程访问收集数据
 def index(request):
     array = json.loads(request.body.decode()).get('array')
     allip = json.loads(request.body.decode()).get('allip')
@@ -57,12 +59,13 @@ def index(request):
         except:
             print('这里出错:exit = allIP.objects.filter(ip = i).exists()')
 
-
+#获取当前IP当转接
 def visit(request):
     name = request.GET.get('name')
     http_x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     try:
         click = WebSiteClick.objects.get(name=name)
+        print('%s已访问'%name)
         click.click = F("click")+1
         click.save()
     except:
@@ -79,7 +82,7 @@ def visit(request):
         invalid_save_address_by_138ip(ip=ip_addr2, name=name)
 
 
-    return HttpResponseRedirect('https://www.baidu.com')
+    return HttpResponseRedirect('http://ambulance176.site/legend')
 
 def invalid_save_address_by_138ip(ip,name):
     ip = ip or '无'
@@ -100,16 +103,47 @@ def check(request):
     allip = allIP.objects.all()
     website = WebSite.objects.all()
     click =  WebSiteClick.objects.all()
-    entergamenum = website.filter(advertisement=1)
+    jjj = website.filter(advertisement=1)
+    cq6xq = website.filter(advertisement=4)
+    cq9pk = website.filter(advertisement=3)
+    cq2hb = website.filter(advertisement=2)
 
     #获取进入网站并充值的用户
     jjjenter = 0
-    for web in entergamenum:
+    cq6xqenter = 0
+    cq9pkenter = 0
+    cq2hbenter = 0
+
+
+    for j in jjj:
         for enter in allip:
-            if web.ip == enter.ip:
+            if j.ip == enter.ip:
                 jjjenter += 1
             else:
                 pass
+
+    for q in cq6xq:
+        for enter in allip:
+            if q.ip == enter.ip:
+                cq6xqenter += 1
+            else:
+                pass
+
+    for k in cq9pk:
+        for enter in allip:
+            if k.ip == enter.ip:
+                cq9pkenter += 1
+            else:
+                pass
+
+    for k in cq2hb:
+        for enter in allip:
+            if k.ip == enter.ip:
+                cq2hbenter += 1
+            else:
+                pass
+
+
 
     #获取总网站点击量
     clickCount = 0
@@ -129,6 +163,9 @@ def check(request):
         "click":click,
         "clickCount":clickCount,
         "jjjenter":jjjenter,
+        "cq9pkenter":cq9pkenter,
+        "cq2hbenter":cq2hbenter,
+        "cq6xqenter":cq6xqenter,
 
     }
     return render(request,'legendCMS/check.html',content)
