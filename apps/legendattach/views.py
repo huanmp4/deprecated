@@ -103,52 +103,22 @@ def check(request):
     allip = allIP.objects.all()
     website = WebSite.objects.all()
     click =  WebSiteClick.objects.all()
-    jjj = website.filter(advertisement=1)
-    cq6xq = website.filter(advertisement=4)
-    cq9pk = website.filter(advertisement=3)
-    cq2hb = website.filter(advertisement=2)
+    tomjjj = WebSiteClick.objects.get(id=1).website_set.all()
+    tom2hq = WebSiteClick.objects.get(id=2).website_set.all()
+    cq9pkenter = WebSiteClick.objects.get(id=3).website_set.all()
+    tom6xq = WebSiteClick.objects.get(id=4).website_set.all()
 
+    # 反查WEb jjj有多少人充值
     #获取进入网站并充值的用户
-    jjjenter = 0
-    cq6xqenter = 0
-    cq9pkenter = 0
-    cq2hbenter = 0
+    jjjenter = tomjjj.count()
+    cq6xqenter = tom6xq.count()
+    cq9pkenter = cq9pkenter.count()
+    cq2hbenter = tom2hq.count()
 
-
-    for j in jjj:
-        for enter in allip:
-            if j.ip == enter.ip:
-                jjjenter += 1
-            else:
-                pass
-
-    for q in cq6xq:
-        for enter in allip:
-            if q.ip == enter.ip:
-                cq6xqenter += 1
-            else:
-                pass
-
-    for k in cq9pk:
-        for enter in allip:
-            if k.ip == enter.ip:
-                cq9pkenter += 1
-            else:
-                pass
-
-    for k in cq2hb:
-        for enter in allip:
-            if k.ip == enter.ip:
-                cq2hbenter += 1
-            else:
-                pass
-
-
-
-    #获取总网站点击量
     clickCount = 0
     for c in click:
         clickCount += c.click
+
 
     allipCount = allip.count()
     arrayCount = array.count()

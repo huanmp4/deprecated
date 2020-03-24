@@ -32,6 +32,7 @@ urlpatterns = [
     path('legend',views_legend.index),
     path('legend',include('apps.legend.urls')),
     path('legendattach/',include('apps.legendattach.urls')),
+    path('test/',include('apps.testapp.urls')),
 ]
 
 
