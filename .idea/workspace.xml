@@ -5,30 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1a9fb-64dd-4ec4-b20a-4edbcfda3c4f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/legendattach/legend_EXE.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/legendattach/views.py" afterPath="$PROJECT_DIR$/apps/legendattach/views.py" />
-      <change beforePath="$PROJECT_DIR$/build/IP/Analysis-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/EXE-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/IP.exe.manifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/PKG-00.pkg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/PKG-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/PYZ-00.pyz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/PYZ-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/warn-IP.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/IP/xref-IP.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/Analysis-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/EXE-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/PKG-00.pkg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/PKG-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/PYZ-00.pyz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/PYZ-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/warn-传奇获取充值比.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/xref-传奇获取充值比.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/传奇获取充值比/传奇获取充值比.exe.manifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/传奇获取充值比.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/Analysis-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/COLLECT-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/EXE-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PKG-00.pkg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PKG-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PYZ-00.pyz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PYZ-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/base_library.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/legend_exe_local.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/legend_exe_local.exe.manifest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/warn-legend_exe_local.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/xref-legend_exe_local.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/VCRUNTIME140.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_bz2.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_hashlib.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_lzma.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_queue.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_socket.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_ssl.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-console-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-datetime-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-debug-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-errorhandling-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-file-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-file-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-file-l2-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-handle-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-heap-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-interlocked-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-libraryloader-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-localization-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-memory-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-namedpipe-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-processenvironment-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-processthreads-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-processthreads-l1-1-1.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-profile-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-rtlsupport-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-string-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-synch-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-synch-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-sysinfo-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-timezone-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-util-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-conio-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-convert-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-environment-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-filesystem-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-heap-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-locale-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-math-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-process-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-runtime-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-stdio-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-string-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-time-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-utility-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/base_library.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/certifi/cacert.pem" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/legend_exe_local.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/legend_exe_local.exe.manifest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/libcrypto-1_1.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/libssl-1_1.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/pyexpat.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/python37.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/select.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/ucrtbase.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/unicodedata.pyd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/legend_exe_local.spec" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/front/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,21 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="legend_exe_local.spec" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/legend_exe_local.spec">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/legendattach/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="342">
+              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -138,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/utils/restful.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -150,7 +185,7 @@
         <entry file="file://$PROJECT_DIR$/legend_exe_local.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1862">
-              <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+              <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -340,22 +375,6 @@
               <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz02" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="legendattach" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -532,6 +551,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="4" width="1936" height="1010" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.5229167" order="7" side_tool="true" content_ui="tabs" />
@@ -539,7 +559,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.47708333" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -911,7 +931,7 @@
     <entry file="file://$PROJECT_DIR$/legend_exe_local.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1862">
-          <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -919,7 +939,7 @@
     <entry file="file://$PROJECT_DIR$/utils/restful.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -928,8 +948,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/legendattach/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="342">
+          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
