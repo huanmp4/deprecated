@@ -58,6 +58,7 @@ def index(request):
                 print('200,ip已存在')
         except:
             print('这里出错:exit = allIP.objects.filter(ip = i).exists()')
+    return restful.ok()
 
 #获取当前IP当转接
 def visit(request):
