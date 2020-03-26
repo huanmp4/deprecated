@@ -299,7 +299,7 @@ if __name__ == "__main__":
     sync.fn()
     sync.fn_HalfHour()
 
-#每5秒搜集数据
 
+# 1.pip install pyInstaller
+# 2.pyinstaller -F .py  打包exe命令，cmd黑窗口
 
-#每10分钟发一次数据
