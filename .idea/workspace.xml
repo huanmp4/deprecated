@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1a9fb-64dd-4ec4-b20a-4edbcfda3c4f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/apps/legendattach/legend_exe.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apps/legendattach/views.py" afterPath="$PROJECT_DIR$/apps/legendattach/views.py" />
-      <change beforePath="$PROJECT_DIR$/front/templates/legendCMS/check.html" afterPath="$PROJECT_DIR$/front/templates/legendCMS/check.html" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/Analysis-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/EXE-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/PKG-00.pkg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/PKG-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/PYZ-00.pyz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/PYZ-00.toc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/base_library.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/legend_exe.exe.manifest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/warn-legend_exe.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/build/legend_exe/xref-legend_exe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/dist/legend_exe.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/legend_exe.spec" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/front/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/apps/legendattach/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="187" column="32" lean-forward="true" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
+              <caret line="187" column="32" lean-forward="false" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -104,21 +112,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="check.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/check.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+            <state relative-caret-position="380">
+              <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="legend_exe.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="legend_exe.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -927,18 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/legendattach/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="187" column="32" lean-forward="true" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
+          <caret line="187" column="32" lean-forward="false" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -955,8 +955,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/check.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+        <state relative-caret-position="380">
+          <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding />
         </state>
       </provider>
