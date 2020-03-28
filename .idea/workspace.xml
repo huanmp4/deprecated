@@ -5,75 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1a9fb-64dd-4ec4-b20a-4edbcfda3c4f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/Analysis-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/COLLECT-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/EXE-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PKG-00.pkg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PKG-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PYZ-00.pyz" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/PYZ-00.toc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/legend_exe_local.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/legend_exe_local.exe.manifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/warn-legend_exe_local.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/legend_exe_local/xref-legend_exe_local.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/VCRUNTIME140.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_bz2.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_hashlib.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_lzma.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_queue.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_socket.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/_ssl.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-console-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-datetime-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-debug-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-errorhandling-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-file-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-file-l1-2-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-file-l2-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-handle-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-heap-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-interlocked-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-libraryloader-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-localization-l1-2-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-memory-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-namedpipe-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-processenvironment-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-processthreads-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-processthreads-l1-1-1.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-profile-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-rtlsupport-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-string-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-synch-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-synch-l1-2-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-sysinfo-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-timezone-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-core-util-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-conio-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-convert-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-environment-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-filesystem-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-heap-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-locale-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-math-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-process-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-runtime-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-stdio-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-string-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-time-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/api-ms-win-crt-utility-l1-1-0.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/base_library.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/certifi/cacert.pem" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/legend_exe_local.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/legend_exe_local.exe.manifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/libcrypto-1_1.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/libssl-1_1.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/pyexpat.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/python37.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/select.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/ucrtbase.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/legend_exe_local/unicodedata.pyd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/legend_exe_local.spec" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/legend_exe.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/apps/legendattach/views.py" afterPath="$PROJECT_DIR$/apps/legendattach/views.py" />
+      <change beforePath="$PROJECT_DIR$/front/templates/legendCMS/check.html" afterPath="$PROJECT_DIR$/front/templates/legendCMS/check.html" />
     </list>
     <ignored path="$PROJECT_DIR$/front/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,9 +30,9 @@
     <SUITE FILE_PATH="coverage/xfz02$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1584761547955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xfz02$IP.coverage" NAME="IP Coverage Results" MODIFIED="1584840085914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xfz02$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1584708771405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xfz02$.coverage" NAME="传奇获取充值比 Coverage Results" MODIFIED="1584850339955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xfz02$.coverage" NAME="传奇获取充值比 Coverage Results" MODIFIED="1585242464465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xfz01$views__1_.coverage" NAME="views (1) Coverage Results" MODIFIED="1577071547347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/cms" />
-    <SUITE FILE_PATH="coverage/xfz02$test.coverage" NAME="test Coverage Results" MODIFIED="1584553264836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xfz02$test.coverage" NAME="test Coverage Results" MODIFIED="1585266973106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xfz01$requests.coverage" NAME="requests Coverage Results" MODIFIED="1574417094431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/register" />
   </component>
   <component name="DatabaseView">
@@ -117,16 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xfz02/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2052">
-              <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="传奇获取充值比.spec" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/传奇获取充值比.spec">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,18 +75,18 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/legendattach/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
+            <state relative-caret-position="190">
               <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/legendattach/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="558">
+              <caret line="187" column="32" lean-forward="true" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -169,23 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restful.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/restful.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="legend_exe_local.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/legend_exe_local.py">
+      <file leaf-file-name="check.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/check.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1862">
-              <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -194,18 +117,38 @@
       <file leaf-file-name="legend_exe.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5415">
-              <caret line="294" column="8" lean-forward="false" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
+            <state relative-caret-position="551">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/legendattach/urls.py">
+      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/source/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cms.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/source/js/cms.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -270,8 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/source/js/course.js" />
-        <option value="$PROJECT_DIR$/apps/course/views.py" />
         <option value="$PROJECT_DIR$/front/templates/course/course_detail.html" />
         <option value="$PROJECT_DIR$/front/templates/legend_taotian/css/index.css" />
         <option value="$PROJECT_DIR$/front/templates/legend_taotian/index.htm" />
@@ -297,7 +238,6 @@
         <option value="$PROJECT_DIR$/front/templates/cms/legendCMS/index.html" />
         <option value="$PROJECT_DIR$/IP.py" />
         <option value="$PROJECT_DIR$/xfz02/test2.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test3.py" />
         <option value="$PROJECT_DIR$/apps/cms/views_of_legend.py" />
@@ -317,10 +257,13 @@
         <option value="$PROJECT_DIR$/front/templates/html_VR/index.html" />
         <option value="$PROJECT_DIR$/xfz02/settings.py" />
         <option value="$PROJECT_DIR$/传奇获取充值比.py" />
-        <option value="$PROJECT_DIR$/front/templates/legendCMS/check.html" />
         <option value="$PROJECT_DIR$/apps/legendattach/legend_EXE.py" />
         <option value="$PROJECT_DIR$/legend_exe_local.py" />
+        <option value="$PROJECT_DIR$/练习1.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/apps/legendattach/legend_exe.py" />
         <option value="$PROJECT_DIR$/apps/legendattach/views.py" />
+        <option value="$PROJECT_DIR$/front/templates/legendCMS/check.html" />
       </list>
     </option>
   </component>
@@ -366,8 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,10 +316,54 @@
               <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="legendattach" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="legendCMS" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -414,19 +399,19 @@
     <option name="myPyQtBackend" value="PyQt4" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Tequila\django\xfz02\apps\legendattach" />
-      <recent name="E:\Tequila\django\xfz02\apps" />
-      <recent name="E:\Tequila\django\xfz02\front\templates\cms" />
-      <recent name="E:\Tequila\django\xfz02\front\district\css\testapp" />
-      <recent name="E:\Tequila\django\xfz01\apps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Tequila\django\xfz02" />
       <recent name="E:\Tequila\django\xfz02\apps\testapp" />
       <recent name="E:\Tequila\django\xfz02\front\templates" />
       <recent name="E:\Tequila\django\xfz02\apps\legendCMS" />
       <recent name="E:\Tequila\django\xfz02\front\templates\legendOfMini" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Tequila\django\xfz02\apps\legendattach" />
+      <recent name="E:\Tequila\django\xfz02\apps" />
+      <recent name="E:\Tequila\django\xfz02\front\templates\cms" />
+      <recent name="E:\Tequila\django\xfz02\front\district\css\testapp" />
+      <recent name="E:\Tequila\django\xfz01\apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.传奇获取充值比">
+  <component name="RunManager" selected="Python.test">
     <configuration name="传奇获取充值比" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -480,6 +465,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xfz02" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="xfz02" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -503,15 +507,17 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Django server.xfz02" />
       <item index="1" class="java.lang.String" itemvalue="Python.IP" />
       <item index="2" class="java.lang.String" itemvalue="Python.传奇获取充值比" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.传奇获取充值比" />
-        <item index="1" class="java.lang.String" itemvalue="Python.IP" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.传奇获取充值比" />
+        <item index="2" class="java.lang.String" itemvalue="Python.IP" />
       </list>
     </recent_temporary>
   </component>
@@ -551,21 +557,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="4" width="1936" height="1010" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.5229167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40045768" sideWeight="0.5261194" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32346243" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.47708333" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.47291666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4013378" sideWeight="0.478125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40045768" sideWeight="0.4738806" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -602,16 +607,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/legendCMS/views.py" />
-    <entry file="file://$PROJECT_DIR$/apps/legendCMS/urls.py" />
-    <entry file="file://$PROJECT_DIR$/apps/legendCMS/models.py" />
-    <entry file="file://$PROJECT_DIR$/apps/cms/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/cms/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -693,13 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="102" column="42" lean-forward="false" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/练习1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -792,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,9 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,35 +835,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/check.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/legendattach/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xfz02/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2052">
+        <state relative-caret-position="741">
           <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/legend_exe_local.spec" />
+    <entry file="file://$PROJECT_DIR$/legend_exe_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3686">
+          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/restful.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="204" column="34" lean-forward="false" selection-start-line="204" selection-start-column="34" selection-end-line="204" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -892,14 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5415">
-          <caret line="294" column="8" lean-forward="false" selection-start-line="294" selection-start-column="8" selection-end-line="294" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -914,13 +889,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/legendattach/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
+        <state relative-caret-position="190">
           <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/legend_exe_local.spec">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -928,31 +903,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/legend_exe_local.py">
+    <entry file="file://$PROJECT_DIR$/front/source/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+        <state relative-caret-position="228">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/restful.py">
+    <entry file="file://$PROJECT_DIR$/front/source/js/cms.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="817">
+          <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/legendattach/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="558">
+          <caret line="187" column="32" lean-forward="true" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

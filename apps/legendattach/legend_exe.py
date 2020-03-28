@@ -11,7 +11,8 @@ import datetime
 
 
 class Synchronize:
-    def __init__(self,initTime,category,gold):
+    def __init__(self,category,gold):
+        initTime = datetime.datetime.now().replace(minute=0, second=0).timestamp()
         self.initTime = initTime
         #初始化变量
         self.top = {}
@@ -23,7 +24,7 @@ class Synchronize:
         # 默认路径
 
         if category =='' or 1:
-            category = 'C:\\Users\\Administrator\\Desktop\\legends\\LBMirServer\\'
+            category = 'C:\\Users\\Administrator\\Desktop\\legends\\3LBMirServer\\'
             print('默认路径')
         self.category = category
         print('路径：',self.category)
@@ -39,30 +40,25 @@ class Synchronize:
         print('5秒自循环中')
         self.getGold()
         self.rejectRepeat()
-        self.little_timerStart = threading.Timer(5, self.fn).start()
+        self.little_timerStart = threading.Timer(4, self.fn).start()
 
 
     #获取每1小时执行一次
     def fn_HalfHour(self):
+        #改半小时
         now = 60*60 - ((datetime.datetime.now().timestamp()) - self.initTime)
-        #改每15分钟执行一次
-
-        n = 1800
-        # for i in range(1,4):
-        #     if now > n/2:
-        #         now -= n/2
-        #         n = n/2
-        #半小时
-        if now > 1800:
-            now -= 1800
-            #15分钟
-        if now > 900:
-            now -= 900
+        if now > 60*30:
+            now -= 60*30
+        elif now > 60*15:
+            now -= 60*15
+        #防止出现负数
+        elif now < 5:
+            now = 60
 
         print('本次数据更新时间剩余',int(now/60),'分钟','然后每',int(now/60),'分钟整点更新一次')
         #Timer中函数不能加括号
         #错误例子Timer(5, fn_HalfHour（）)
-        self.big_timerStart = threading.Timer(now, self.fn_HalfHour).start()
+
         #每半小时清空元宝数量
         self.addIP()
         self.getAllIP()
@@ -72,8 +68,8 @@ class Synchronize:
         #     print('数据传送失败，远程服务器未开器')
         self.top = {}
         self.Json = {}
-
         self.array.clear()
+        self.big_timerStart = threading.Timer(now, self.fn_HalfHour).start()
 
 
     def cancel(self):
@@ -303,8 +299,8 @@ if __name__ == "__main__":
         except FileNotFoundError:
             print('超过错误次数，请重新打开本程序')
 
-    initTime = datetime.datetime.now().replace(minute=0,second=0).timestamp()
-    sync = Synchronize(initTime=initTime,category=category,gold=gold)
+
+    sync = Synchronize(category=category,gold=gold)
     sync.fn()
     sync.fn_HalfHour()
 

@@ -109,7 +109,57 @@ def check(request):
     cq9pkenter = WebSiteClick.objects.get(id=3).website_set.all()
     tom6xq = WebSiteClick.objects.get(id=4).website_set.all()
 
-    # 反查WEb jjj有多少人充值
+    # 反查进入游戏的网站IP
+    webforjjj = website.filter(advertisement_id=1)
+    webfor2hq = website.filter(advertisement_id=2)
+    webfor9pk = website.filter(advertisement_id=3)
+    webfor6xq = website.filter(advertisement_id=4)
+
+
+    countjjj = 0
+    count2hq = 0
+    count9pk = 0
+    count6xq = 0
+
+    #反查进入游戏的网站IP
+
+    #jjj
+    for webip in webfor6xq:
+        for gameip in allip:
+            if gameip.ip == webip.ip:
+                countjjj += 1
+                break
+            else:
+                pass
+
+    #2hq
+    for webip in webfor2hq:
+        for gameip in allip:
+            if gameip.ip == webip.ip:
+                count2hq += 1
+                break
+            else:
+                pass
+
+
+    #9pk
+    for webip in webfor9pk:
+        for gameip in allip:
+            if gameip.ip == webip.ip:
+                count9pk += 1
+                break
+            else:
+                pass
+
+    #6xq
+    for webip in webfor6xq:
+        for gameip in allip:
+            if gameip.ip == webip.ip:
+                count6xq += 1
+                break
+            else:
+                pass
+
     #获取进入网站并充值的用户
     jjjenter = tomjjj.count()
     cq6xqenter = tom6xq.count()
@@ -137,6 +187,10 @@ def check(request):
         "cq9pkenter":cq9pkenter,
         "cq2hbenter":cq2hbenter,
         "cq6xqenter":cq6xqenter,
+        "count6xq":count6xq,
+        "count2hq":count2hq,
+        "count9pk":count9pk,
+        "countjjj":countjjj,
 
     }
     return render(request,'legendCMS/check.html',content)
