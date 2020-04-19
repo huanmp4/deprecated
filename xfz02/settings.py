@@ -235,7 +235,7 @@ UEDITOR_CONFIG_PATH = os.path.join(BASE_DIR,'front','district','ueditor','config
 
 #page加载新闻数量
 
-PAGE_LOAD_NUM = 1
+PAGE_LOAD_NUM = 2
 
 
 

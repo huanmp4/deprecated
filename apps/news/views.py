@@ -12,7 +12,7 @@ from .serializers import NewsSerializers,NewDetailSerializers,CommentSerializers
 # Create your views here.
 
 def firstPage(request):
-    return  render(request,"firstPage/index.html")
+    return  render(request,"firstPage")
 
 def index(request):
     newses = News.objects.all()[0:settings.PAGE_LOAD_NUM]
@@ -24,9 +24,10 @@ def index(request):
 def news_list(request):
     num = 1
     p = int(request.GET.get('p',1))
+    print("="*30)
     print('p',p)
-    start = (p-1) * settings.PAGE_LOAD_NUM
-    end = p * settings.PAGE_LOAD_NUM
+    start = p * settings.PAGE_LOAD_NUM
+    end = (p+1) * settings.PAGE_LOAD_NUM
     newes = News.objects.order_by('-pub_time')[start:end]
     num += 1
     serializers = NewsSerializers(newes,many=True).data
