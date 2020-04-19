@@ -198,6 +198,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'front','templates'),
     os.path.join(BASE_DIR,'front','templates','legendOfMini'),
     os.path.join(BASE_DIR,'front','templates','html_VR'),
+    os.path.join(BASE_DIR,'front','templates'),
     os.path.join(BASE_DIR,'static_dist','source'),
 ]
 

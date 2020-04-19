@@ -22,7 +22,7 @@ CMS.prototype.listenReleaseBTN = function() {
         var category_val = category.val();
         var category_text = $('#option-control option[value="'+category+'"]').text();
         var content = window.ue.getContent();
-        var thumbnail = CMS.thumbnail.val();
+        var thumbnail = $("#picture-for-thumbnail").val();
         console.log('title',title);
         console.log('category_text',category_text);
         console.log('category',category);
@@ -100,7 +100,7 @@ CMS.prototype.listThumbnailUploadToLocal = function(){
             'success':function(event){
                 if (event["code"] === 200){
                     var url = event['data']['url'];
-                    var picture = $('#picture');
+                    var picture = $('#picture-for-thumbnail');
                     picture.val(url);
                 }
             }

@@ -1,0 +1,7 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+16:55:28	491/491	---M--	200	added ('OK')	text/html	etag:%22a8c351e8da8d61:0%22	https://400gay.vip/	C:/My%20Web%20Sites/22/400gay.vip/index.html	(from )
+16:55:28	30/30	---M--	404	error ('Not%20Found')	application/json	date:Sun,%2019%20Apr%202020%2008:57:46%20GMT	https://400gay.vip/robots.txt		(from )
+16:55:28	36414/36414	---M--	200	added ('OK')	image/jpeg	etag:%22d15cb8abbe8d51:0%22	https://400gay.vip/images/icon.jpg	C:/My%20Web%20Sites/22/400gay.vip/images/icon.jpg	(from https://400gay.vip/)
+16:55:28	93106/93106	---M--	200	added ('OK')	application/javascript	etag:%223ab3b0f9ecdfd51:0%22	https://400gay.vip/home/js/jquery.min.js	C:/My%20Web%20Sites/22/400gay.vip/home/js/jquery.min.js	(from https://400gay.vip/)
+16:55:28	1384/1384	---M--	200	added ('OK')	text/css	etag:%22c08a6f4c3e8d51:0%22	https://400gay.vip/home/css/style.css	C:/My%20Web%20Sites/22/400gay.vip/home/css/style.css	(from https://400gay.vip/)
+16:55:28	2449/2449	---M--	200	added ('OK')	application/javascript	etag:%2278fbdf9ecdfd51:0%22	https://400gay.vip/home/js/script.js	C:/My%20Web%20Sites/22/400gay.vip/home/js/script.js	(from https://400gay.vip/)

@@ -69,11 +69,14 @@
                                     {% endfor %}
                                 </select>
                                 <br>
-                                <label for="picture">缩略图</label>
                                 <div class="form-group">
                                     <label for="picture-for-thumbnail">缩略图</label>
                                     <div class="input-group">
+                                        {% if news %}
                                         <input type="text" class="form-control" id="picture-for-thumbnail" value="{{ news.thumbnail }}">
+                                        {% else %}
+                                        <input type="text" class="form-control" id="picture-for-thumbnail">
+                                        {% endif %}
                                         <span class="form-group-append">
                                             <label for="thumbnail-btn" class="btn btn-default btn-file">上传图片
                                             <input type="file" hidden="hidden" id="thumbnail-btn"></label>
