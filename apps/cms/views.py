@@ -75,17 +75,28 @@ def category(request):
             return restful.result(message='添加成功')
         return restful.params_error('表单验证错误')
 
-
 def image_upload_to_local(request):
     file = request.FILES.get('file')
     file_name = file.name.split('.')[1]
     file_name = str(int(time.time()*1000))+ '.' +file_name
-    with open((os.path.join(settings.CLIENTIMAGE_ROOT,file_name)),'wb') as f:
+    with open(os.path.join(settings.CLIENTIMAGE_ROOT + '/' + file_name), 'wb') as f:
         for chunk in file.chunks():
             f.write(chunk)
-    url = request.build_absolute_uri(settings.STATIC_URL + 'client_image/'+file_name)
+    url = request.build_absolute_uri(settings.STATIC_URL + 'source/' + 'client_image/' + file_name)
     print(url)
     return restful.result(data={'url':url})
+
+
+# def image_upload_to_local(request):
+#     file = request.FILES.get('file')
+#     file_name = file.name.split('.')[1]
+#     file_name = str(int(time.time()*1000))+ '.' +file_name
+#     with open((os.path.join(settings.CLIENTIMAGE_ROOT,file_name)),'wb') as f:
+#         for chunk in file.chunks():
+#             f.write(chunk)
+#     url = request.build_absolute_uri(settings.STATIC_URL + 'client_image/'+file_name)
+#     print(url)
+#     return restful.result(data={'url':url})
 
 @method_decorator(permission_required(perm='category.change_category',login_url='/'),name='dispatch')
 def category_modify(request):

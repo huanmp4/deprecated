@@ -139,6 +139,7 @@ def course_order_key(request):
         'key':key
     }
     return restful.result(data=params)
+
 def notify_view(request):
     order_id = request.POST.get('orderid')
     print('notify_view',order_id)
