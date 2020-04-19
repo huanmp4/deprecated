@@ -24,7 +24,7 @@ class Synchronize:
         # 默认路径
 
         if category =='' or 1:
-            category = 'C:\\Users\\Administrator\\Desktop\\legends\\3LBMirServer\\'
+            category = 'C:\\Users\\Administrator\\Desktop\\legends\\2LBMirServer\\'
             print('默认路径')
         self.category = category
         print('路径：',self.category)

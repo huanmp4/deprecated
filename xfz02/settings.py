@@ -190,12 +190,15 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# static的显示目录，包含外链接图片等
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'front','district'),
     os.path.join(BASE_DIR,'front','source'),
     os.path.join(BASE_DIR,'front','templates'),
     os.path.join(BASE_DIR,'front','templates','legendOfMini'),
-    os.path.join(BASE_DIR,'front','templates','html_VR')
+    os.path.join(BASE_DIR,'front','templates','html_VR'),
+    os.path.join(BASE_DIR,'static_dist','source'),
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR,'static_dist')
@@ -204,7 +207,7 @@ AUTH_USER_MODEL = 'register.User'
 
 # CLIENTIMAGE_URL = '/front/source/client_image/'
 # CLIENTIMAGE_ROOT = os.path.join(BASE_DIR,'front','source','client_image')
-CLIENTIMAGE_URL = '/static/client_image/'
+CLIENTIMAGE_URL = '/static_dist/source/client_image/'
 CLIENTIMAGE_ROOT = os.path.join(BASE_DIR,'static_dist','source','client_image')
 
 
