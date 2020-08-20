@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['122.114.157.40','106.13.7.98','127.0.0.1','ambulance176.site',
 # Application definition
 
 INSTALLED_APPS = [
+    'apps.flew',
     'apps.legend',
     'apps.legendattach',
     'apps.testapp',
@@ -199,10 +200,12 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'front','templates','legendOfMini'),
     os.path.join(BASE_DIR,'front','templates','html_VR'),
     os.path.join(BASE_DIR,'front','templates'),
-    os.path.join(BASE_DIR,'static_dist','source'),
-]
+    os.path.join(BASE_DIR,'static_dist'),
 
-STATIC_ROOT = os.path.join(BASE_DIR,'static_dist')
+]
+# 生产打开这个
+# STATIC_ROOT = os.path.join(BASE_DIR,'static_dist')
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 AUTH_USER_MODEL = 'register.User'
 

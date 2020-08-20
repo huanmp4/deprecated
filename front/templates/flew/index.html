@@ -1,0 +1,269 @@
+{% extends 'flew/base.html' %}
+
+
+
+
+{% block content %}
+	<div id="fh5co-services-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>重要提示</h2>
+					<p>小程序开发，因为专一，所以专业. </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<i class="icon-laptop"></i>
+						<div class="desc">
+							<h3>小程序定制开发</h3>
+							<p>门店展示，餐饮下单，同城预定，商城等，提供各行各业小程序定制开发.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<i class="icon-server"></i>
+						<div class="desc">
+							<h3>量身定制</h3>
+							<p>打破行业价格垄断提供低价格，高品质的高端定制小程序app.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<i class="icon-money"></i>
+						<div class="desc">
+							<h3>多对一服务</h3>
+							<p>工程师们针对用户需求优化，跟踪，直到用户满意为止.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<i class="icon-tablet"></i>
+						<div class="desc">
+							<h3>售后无忧</h3>
+							<p>项目及时修正，杜绝BUG，功能更新，数据库维护等.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<i class="icon-line-chart"></i>
+						<div class="desc">
+							<h3>经验丰富</h3>
+							<p>十年工程师经验，使用简洁，大方，亲用户的界面，更了解用户需求，.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="services">
+						<i class="icon-pie-chart"></i>
+						<div class="desc">
+							<h3>急速开发</h3>
+							<p>最快1周内可上线.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{#    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>#}
+	<div id="fh5co-work-section" class="fh5co-light-grey-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>作品案例</h2>
+					<p>以下作品是已开发过的案例，可实际看客户需求修改，当然，也可以全新定制. </p>
+				</div>
+			</div>
+			<div class="row list-inner-group">
+                {% for new in news %}
+				<div class="col-md-4 animate-box">
+					<a href="#" class="item-grid text-center">
+						<div class="image" style="background-image: url({{ new.thumbnail }})"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">{{ new.title }}</h3>
+								<h5 class="category">{{ new.content }}</h5>
+							</div>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+
+                {# template模板 #}
+                <script id="template_each" type="text/html">
+                {% verbatim %}
+                    {{ each newses value num }}
+                        <div class="col-md-4 animate-box fadeInUp animated">
+                            <a href="#" class="item-grid text-center">
+                                <div class="image" style="background-image: url({{ value.thumbnail }})"></div>
+                                <div class="v-align">
+                                    <div class="v-align-middle">
+                                        <h3 class="title">{{ value.title }}</h3>
+                                        <h5 class="category">{{ value.content }}</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    {{ /each }}
+                {% endverbatim %}
+                </script>
+
+			</div>
+		</div>
+    <div class="col-md-12 text-center animate-box">
+        <p>
+            <div href="javescript:0;" class="btn btn-primary with-arrow load-more-span" id="load-more-BTN">加载更多 <i class="icon-arrow-right"></i></div>
+            <div href="javescript:0;" class="btn btn-dark with-arrow load-more-span" id="load-more-BTN-2" style="display:none">没有更多了 <i class="icon-arrow-right"></i></div>
+        </p>
+    </div>
+	</div>
+
+
+
+	<div id="fh5co-testimony-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>小程序工程师</h2>
+					<p>负责小程序后端. </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-offset-0 to-animate">
+					<div class="wrap-testimony animate-box">
+						<div class="owl-carousel-fullwidth">
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="/static/flew/images/person1.jpg" alt="user">
+									</figure>
+									<blockquote>
+										<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+									</blockquote>
+									<span>Athan Smith, via <a href="#" class="twitter">Twitter</a></span>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="/static/flew/images/person2.jpg" alt="user">
+									</figure>
+									<blockquote>
+										<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+									</blockquote>
+									<span>Nathalie Kosley, via <a href="#" class="twitter">Twitter</a></span>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="/static/flew/images/person3.jpg" alt="user">
+									</figure>
+									<blockquote>
+										<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+									</blockquote>
+									<span>Yanna Kuzuki, via <a href="#" class="twitter">Twitter</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-blog-section" class="fh5co-light-grey-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>Recent from Blog</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 animate-box">
+					<a href="#" class="item-grid">
+						<div class="image" style="background-image: url(/static/flew/images/image_1.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">We Create Mobile App</h3>
+								<h5 class="date"><span>June 23, 2016</span> | <span>4 Comments</span></h5>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 col-sm-6 animate-box">
+					<a href="#" class="item-grid">
+						<div class="image" style="background-image: url(/static/flew/images/image_2.jpg)"></div>
+						<div class="v-align">
+							<div class="v-align-middle">
+								<h3 class="title">Geographical App</h3>
+								<h5 class="date"><span>June 22, 2016</span> | <span>10 Comments</span></h5>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-12 text-center animate-box">
+					<p><a href="#" class="btn btn-primary with-arrow">View More Post <i class="icon-arrow-right"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-pricing-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+					<h2>Pricing</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="pricing">
+					<div class="col-md-3 animate-box">
+						<div class="price-box">
+							<h2 class="pricing-plan">Starter</h2>
+							<div class="price"><sup class="currency">$</sup>9<small>/month</small></div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 animate-box">
+						<div class="price-box">
+							<h2 class="pricing-plan">Basic</h2>
+							<div class="price"><sup class="currency">$</sup>27<small>/month</small></div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 animate-box">
+						<div class="price-box popular">
+							<h2 class="pricing-plan pricing-plan-offer">Pro <span>Best Offer</span></h2>
+							<div class="price"><sup class="currency">$</sup>74<small>/month</small></div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 animate-box">
+						<div class="price-box">
+							<h2 class="pricing-plan">Unlimited</h2>
+							<div class="price"><sup class="currency">$</sup>140<small>/month</small></div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+							<a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+{% endblock %}

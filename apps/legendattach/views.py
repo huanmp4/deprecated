@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect,reverse
 import json
 from django.http import HttpResponseRedirect
 # Create your views here.
@@ -61,6 +61,7 @@ def index(request):
     return restful.ok()
 
 #获取当前IP当转接
+#用户进来的网站格式：http://www.ambulance176.site/legendattach/visit?name=jjj
 def visit(request):
     name = request.GET.get('name')
     http_x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
@@ -82,8 +83,8 @@ def visit(request):
         #法西兰
         invalid_save_address_by_138ip(ip=ip_addr2, name=name)
 
-
-    return HttpResponseRedirect('http://cg.yy1ng.com/')
+    #走你
+    return HttpResponseRedirect('http://106.13.162.50/')
 
 def invalid_save_address_by_138ip(ip,name):
     ip = ip or '无'
@@ -191,6 +192,22 @@ def check(request):
         "count2hq":count2hq,
         "count9pk":count9pk,
         "countjjj":countjjj,
-
     }
     return render(request,'legendCMS/check.html',content)
+
+
+def CleanAllData(request):
+    print("CleanallData")
+
+    websiteClean = WebSite.objects.all().delete()
+    arrayClean = Array.objects.all().delete()
+    allIpClean = allIP.objects.all().delete()
+    websiteclickClean = WebSiteClick.objects.filter(id=1)
+    websiteclickClean.update(click=0)
+    websiteclickClean = WebSiteClick.objects.filter(id=2)
+    websiteclickClean.update(click=0)
+    websiteclickClean = WebSiteClick.objects.filter(id=3)
+    websiteclickClean.update(click=0)
+    websiteclickClean = WebSiteClick.objects.filter(id=4)
+    websiteclickClean.update(click=0)
+    return redirect(reverse('legendattach:check'))

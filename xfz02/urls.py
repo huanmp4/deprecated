@@ -33,6 +33,7 @@ urlpatterns = [
     path('legend',include('apps.legend.urls')),
     path('legendattach/',include('apps.legendattach.urls')),
     path('test/',include('apps.testapp.urls')),
+    path('flew/',include('apps.flew.urls'))
 ]
 
 

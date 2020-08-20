@@ -5,4 +5,5 @@ urlpatterns = [
     path('test',views.index,name="test"),
     path('visit',views.visit,name="visit"),
     path('check',views.check,name="check"),
+    path('cleanalldata', views.CleanAllData, name="cleanalldata"),
 ]
