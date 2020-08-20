@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['legend_exe.py'],
-             pathex=['e:\\Tequila\\django\\xfz02\\apps\\legendattach'],
+             pathex=['E:\\Tequila\\django\\xfz02\\apps\\legendattach'],
              binaries=[],
              datas=[],
              hiddenimports=[],

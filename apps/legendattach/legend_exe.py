@@ -24,13 +24,13 @@ class Synchronize:
         # 默认路径
 
         if category =='' or 1:
-            category = 'C:\\Users\\Administrator\\Desktop\\legends\\2LBMirServer\\'
+            category = 'C:\\Users\\Administrator\\Desktop\\176\\MirServer\\'
             print('默认路径')
         self.category = category
         print('路径：',self.category)
         #默认元宝路径
         if gold == '' or None :
-            gold = "%sMir200\\Envir\\QuestDiary\\HFRMB点\\"%category
+            gold = "%sMir200\\Envir\\QuestDiary\\64pay充值元宝\\元宝\\"%category
             print('默认元宝路径')
         self.gold = gold
         print('元宝路径：', self.gold )
@@ -286,15 +286,15 @@ class Synchronize:
 if __name__ == "__main__":
     continues = True
 
-    category = input('请输入服务端目录，例如：D:\MirServser\ ：')
-    gold = input('请输入元宝目录，例如：D:\MirServer\Mir200\Envir\QuestDiary\HF元宝\ ，如默认‘HF元宝’的目录请直接按回车：')
+    category = input('请严格输入服务端目录，例如：D:\\MirServser\\ ：')
+    gold = input('请输入元宝目录，例如：C:\\Users\\Administrator\\Desktop\\176\\MirServer\\，如默认‘HF元宝’的目录请直接按回车：')
     try:
-        with open('%s%s.txt' % (category, 20), 'r') as name:
+        with open('%s%s.txt' % (gold, 20), 'r') as name:
             file = name.readlines()
     except FileNotFoundError:
         category = input('输入有误，请确认目录正常或已创建了元宝路径 ：')
         try:
-            with open('%s%s.txt' % (category, 20), 'r') as name:
+            with open('%s%s.txt' % (gold, 20), 'r') as name:
                 file = name.readlines()
         except FileNotFoundError:
             print('超过错误次数，请重新打开本程序')
