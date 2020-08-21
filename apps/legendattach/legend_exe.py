@@ -5,7 +5,6 @@ import os
 import threading
 import time
 import requests
-import re
 from collections import Counter
 import datetime
 
@@ -25,19 +24,25 @@ class Synchronize:
 
         if category =='' or 1:
             category = 'C:\\Users\\Administrator\\Desktop\\176\\MirServer\\'
-            print('默认路径')
+            print('使用默认路径')
+        else:
+            category = category
+            print('使用默认路径')
         self.category = category
-        print('路径：',self.category)
+
         #默认元宝路径
-        if gold == '' or None :
+        if gold == '' or 1 :
             gold = "%sMir200\\Envir\\QuestDiary\\64pay充值元宝\\元宝\\"%category
             print('默认元宝路径')
+        else:
+            gold = gold
         self.gold = gold
-        print('元宝路径：', self.gold )
+        print('最终元宝路径：', self.gold )
+        print('最终服务器路径：',self.category)
 
     #开启5秒自循环
     def fn(self):
-        print('5秒自循环中')
+        print('5秒自循环中,服务器更新倒数：%s分钟'%self.reciprocalTime)
         self.getGold()
         self.rejectRepeat()
         self.little_timerStart = threading.Timer(4, self.fn).start()
@@ -157,6 +162,7 @@ class Synchronize:
             data = f.readlines()
             for dataline in data:
                 r = str(re.findall(user, dataline)).replace('[\'', '').replace('\']', '')
+
                 if r == user:
                     account = re.search('IP:', dataline).span()
                     charater = re.search('机器码:', dataline).span()
@@ -281,11 +287,9 @@ class Synchronize:
                         top = dict(x+y)
                 return top
         except:
-            pass
+            print("找不到元宝.txt文件,请关闭程序再输入正确元宝路径")
 
 if __name__ == "__main__":
-    continues = True
-
     category = input('请严格输入服务端目录，例如：D:\\MirServser\\ ：')
     gold = input('请输入元宝目录，例如：C:\\Users\\Administrator\\Desktop\\176\\MirServer\\，如默认‘HF元宝’的目录请直接按回车：')
     try:
@@ -298,13 +302,11 @@ if __name__ == "__main__":
                 file = name.readlines()
         except FileNotFoundError:
             print('超过错误次数，请重新打开本程序')
-
-
     sync = Synchronize(category=category,gold=gold)
     sync.fn()
     sync.fn_HalfHour()
 
 
 # 1.pip install pyInstaller
-# 2.pyinstaller -F .py  打包exe命令，cmd黑窗口
+# 2.pyinstaller -F xx.py  打包exe命令，cmd黑窗口
 

@@ -72,9 +72,11 @@
       <file leaf-file-name="legend_exe.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="258" column="23" lean-forward="true" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="311">
+              <caret line="175" column="10" lean-forward="true" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,9 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>picture</find>
-      <find>picture-for-thumbnail</find>
-      <find>Forbidden</find>
       <find>href</find>
       <find>static/</find>
       <find>src</find>
@@ -158,6 +157,9 @@
       <find>Htt</find>
       <find>http</find>
       <find>redirect</find>
+      <find>continues</find>
+      <find>span</find>
+      <find>getCharaterName</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -220,8 +222,8 @@
         <option value="$PROJECT_DIR$/front/templates/flew/index.html" />
         <option value="$PROJECT_DIR$/apps/legendattach/urls.py" />
         <option value="$PROJECT_DIR$/apps/legendattach/apps.py" />
-        <option value="$PROJECT_DIR$/front/templates/legendCMS/check.html" />
         <option value="$PROJECT_DIR$/apps/legendattach/views.py" />
+        <option value="$PROJECT_DIR$/front/templates/legendCMS/check.html" />
         <option value="$PROJECT_DIR$/apps/legendattach/legend_exe.py" />
       </list>
     </option>
@@ -243,9 +245,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-22" />
-    <option name="y" value="12" />
     <option name="width" value="1934" />
     <option name="height" value="1006" />
   </component>
@@ -321,22 +322,7 @@
               <item name="xfz02" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="legendCMS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,19 +364,19 @@
     <option name="myPyQtBackend" value="PyQt4" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Tequila\django\xfz02\front\templates" />
-      <recent name="E:\Tequila\django\xfz02\static_dist" />
-      <recent name="E:\Tequila\django\xfz02" />
-      <recent name="E:\Tequila\django\xfz02\apps\testapp" />
-      <recent name="E:\Tequila\django\xfz02\apps\legendCMS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Tequila\django\xfz02\apps" />
       <recent name="E:\Tequila\django\xfz02\apps\legendattach" />
       <recent name="E:\Tequila\django\xfz02\front\templates\cms" />
       <recent name="E:\Tequila\django\xfz02\front\district\css\testapp" />
       <recent name="E:\Tequila\django\xfz01\apps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Tequila\django\xfz02\front\templates" />
+      <recent name="E:\Tequila\django\xfz02\static_dist" />
+      <recent name="E:\Tequila\django\xfz02" />
+      <recent name="E:\Tequila\django\xfz02\apps\testapp" />
+      <recent name="E:\Tequila\django\xfz02\apps\legendCMS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -535,7 +521,7 @@
     <option name="totallyTimeSpent" value="8186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-22" y="12" width="1934" height="1006" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40045768" sideWeight="0.5261194" order="7" side_tool="true" content_ui="tabs" />
@@ -543,7 +529,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.47291666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15745568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -923,16 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/check.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/legendattach/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1029,11 +1005,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/legendCMS/check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="121" column="47" lean-forward="true" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/legendattach/legend_exe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="258" column="23" lean-forward="true" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="311">
+          <caret line="175" column="10" lean-forward="true" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
