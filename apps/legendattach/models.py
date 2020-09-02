@@ -35,3 +35,17 @@ class WebSite(models.Model):
     pub_time = models.DateTimeField(auto_now_add=True)
     class Meta:
         ordering = ['-pub_time']
+
+
+class legendSite(models.Model):
+    serverName = models.CharField(max_length=18)
+    ip = models.CharField(max_length=18)
+    time = models.DateTimeField()
+    type = models.CharField(max_length=18)
+    introduce = models.CharField(max_length=40)
+    QQ = models.CharField(max_length=18)
+    isActive = models.BooleanField(default=True)
+    href = models.CharField(max_length=100,default='null')
+    onPage = models.CharField(max_length=10,default="normal")
+    class Meta:
+        ordering = ["time"]

@@ -5,7 +5,7 @@ a = {'password': [{'message': '密码长度不能少于4位', 'code': 'min_lengt
 
 b = {}
 for key,value in a.items():
-    register = []
+    register = [] 
     for var in value:
         register.append(var['message'])
     b[key] = register[0]

@@ -29,11 +29,10 @@ urlpatterns = [
     path('search/',include('apps.search.urls')),
     path('ueditor/',include('apps.ueditor.urls')),
     path('party/',include('apps.party.urls')),
-    path('legend',views_legend.index),
     path('legend',include('apps.legend.urls')),
     path('legendattach/',include('apps.legendattach.urls')),
     path('test/',include('apps.testapp.urls')),
-    path('flew/',include('apps.flew.urls'))
+    path('flew/',include('apps.flew.urls')),
 ]
 
 

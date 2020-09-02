@@ -1,0 +1,32 @@
+1598754726701	geckodriver	INFO	Listening on 127.0.0.1:50008
+1598754729795	mozrunner::runner	INFO	Running command: "C:\\Users\\ambul\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ambul\\AppData\\Local\\Temp\\rust_mozprofileyy4OS4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1598754736179	Marionette	INFO	Listening on port 50017
+1598754736366	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598754968290	Marionette	INFO	Stopped listening on port 50017
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1598755325579	geckodriver	INFO	Listening on 127.0.0.1:51161
+1598755328614	mozrunner::runner	INFO	Running command: "C:\\Users\\ambul\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ambul\\AppData\\Local\\Temp\\rust_mozprofilebs3wJ9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 1598755335309	mozrunner::runner	INFO	Running command: "C:\\Users\\ambul\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ambul\\AppData\\Local\\Temp\\rust_mozprofileQjVS4X"
+JavaScript error: resource://gre/modules/XULStore.jsm, liJavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\ambul\AppData\Local\Temp\rust_mozprofilebs3wJ9\protections.sqlite
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013E,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013E,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013E,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013E,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013E,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
