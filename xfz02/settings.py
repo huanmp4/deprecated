@@ -194,18 +194,19 @@ STATIC_URL = '/static/'
 
 # static的显示目录，包含外链接图片等
 STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'front'),
     os.path.join(BASE_DIR,'front','district'),
     os.path.join(BASE_DIR,'front','source'),
     os.path.join(BASE_DIR,'front','templates'),
     os.path.join(BASE_DIR,'front','templates','legendOfMini'),
     os.path.join(BASE_DIR,'front','templates','html_VR'),
     os.path.join(BASE_DIR,'front','templates'),
-    os.path.join(BASE_DIR,'static_dist'),
+    # os.path.join(BASE_DIR,'static_dist'),
 
 ]
 # 生产打开这个
 # STATIC_ROOT = os.path.join(BASE_DIR,'static_dist')
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_ROOT = os.path.join(BASE_DIR,'static_dist')
 
 AUTH_USER_MODEL = 'register.User'
 

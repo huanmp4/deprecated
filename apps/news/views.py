@@ -14,12 +14,15 @@ from .serializers import NewsSerializers,NewDetailSerializers,CommentSerializers
 def firstPage(request):
     return  render(request,"firstPage/index.html")
 
+
+
 def index(request):
-    newses = News.objects.all()[0:settings.PAGE_LOAD_NUM]
-    banners = Banner.objects.all()
-    context = {'newses':newses,'banners':banners}
-    restful.get_address_by_138ip(request=request,content='进入到主页')
-    return render(request,'news/index.html',context)
+    # newses = News.objects.all()[0:settings.PAGE_LOAD_NUM]
+    # banners = Banner.objects.all()
+    # context = {'newses':newses,'banners':banners}
+    # restful.get_address_by_138ip(request=request,content='进入到主页')
+    # return render(request,'news/index.html',context)
+     return render(request,'personal/index.html')
 
 def news_list(request):
     num = 1
