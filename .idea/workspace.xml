@@ -6,6 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1a9fb-64dd-4ec4-b20a-4edbcfda3c4f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/front/templates/personal/index.html" afterPath="$PROJECT_DIR$/front/templates/personal/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/front/node_modules/" />
@@ -54,8 +55,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/templates/personal/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="455" column="0" lean-forward="true" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_preview.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/templates/cms/news/news_preview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="29" column="75" lean-forward="false" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_preview.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/source/js/cms/news_preview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -191,7 +212,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="391" />
     <option name="width" value="1295" />
     <option name="height" value="959" />
@@ -215,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,23 +248,6 @@
             <path>
               <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
               <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="news" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="party" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,6 +255,13 @@
               <item name="xfz02" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
@@ -264,24 +277,6 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="personal" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xfz02" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="sns_fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xfz02" type="b2602c69:ProjectViewProjectNode" />
@@ -292,8 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -308,7 +301,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Tequila/django/xfz01/front/templates/news/base.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../legendSite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -329,19 +322,19 @@
     <option name="myPyQtBackend" value="PyQt4" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Tequila\django\xfz02\apps" />
-      <recent name="E:\Tequila\django\xfz02\apps\legendattach" />
-      <recent name="E:\Tequila\django\xfz02\front\templates\cms" />
-      <recent name="E:\Tequila\django\xfz02\front\district\css\testapp" />
-      <recent name="E:\Tequila\django\xfz01\apps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Tequila\django\xfz02\front\templates\personal" />
       <recent name="E:\Tequila\django\xfz02\front\templates" />
       <recent name="E:\Tequila\django\xfz02\static_dist" />
       <recent name="E:\Tequila\django\xfz02" />
       <recent name="E:\Tequila\django\xfz02\apps\testapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Tequila\django\xfz02\apps" />
+      <recent name="E:\Tequila\django\xfz02\apps\legendattach" />
+      <recent name="E:\Tequila\django\xfz02\front\templates\cms" />
+      <recent name="E:\Tequila\django\xfz02\front\district\css\testapp" />
+      <recent name="E:\Tequila\django\xfz01\apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -528,7 +521,7 @@
     <option name="totallyTimeSpent" value="8186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -603,20 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/restful.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/register/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/register/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -750,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
           <caret line="302" column="33" lean-forward="false" selection-start-line="302" selection-start-column="33" selection-end-line="302" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="90" column="21" lean-forward="false" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="52" column="34" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-765">
           <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
           <caret line="97" column="20" lean-forward="false" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,9 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,20 +935,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="232" column="35" lean-forward="true" selection-start-line="232" selection-start-column="35" selection-end-line="232" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/personal/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/personal/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/front/templates/personal/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1938">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,14 +950,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/source/js/cms/news_preview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/cms/news/news_preview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="75" lean-forward="false" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/personal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="455" column="0" lean-forward="true" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="155" column="11" lean-forward="true" selection-start-line="155" selection-start-column="11" selection-end-line="155" selection-end-column="11" />
           <folding />
         </state>
       </provider>
