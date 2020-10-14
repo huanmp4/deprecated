@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def payinfo(request):
-    return render(request,'payinfo/payinfo.html')
+    return render(request,'flew/index.html')
