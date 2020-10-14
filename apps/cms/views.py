@@ -82,7 +82,7 @@ def image_upload_to_local(request):
     with open(os.path.join(settings.CLIENTIMAGE_ROOT + '/' + file_name), 'wb') as f:
         for chunk in file.chunks():
             f.write(chunk)
-    url = request.build_absolute_uri(settings.STATIC_URL + 'source/' + 'client_image/' + file_name)
+    url = request.build_absolute_uri('images/client' + file_name)
     print(url)
     return restful.result(data={'url':url})
 
