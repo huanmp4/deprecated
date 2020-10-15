@@ -212,8 +212,8 @@ AUTH_USER_MODEL = 'register.User'
 
 # CLIENTIMAGE_URL = '/front/source/client_image/'
 # CLIENTIMAGE_ROOT = os.path.join(BASE_DIR,'front','source','client_image')
-CLIENTIMAGE_URL = '/images/client/'
-CLIENTIMAGE_ROOT = os.path.join(BASE_DIR,'images','client')
+CLIENTIMAGE_URL = '/images/'
+CLIENTIMAGE_ROOT = os.path.join(BASE_DIR,'images').replace('\\', '/')
 
 
 
