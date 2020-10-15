@@ -26,7 +26,7 @@ urlpatterns = [
     path('news_preview_cms_all', views.News_preview_cms_all.as_view(), name='news_preview_cms_all'),
     path('news_preview_cms_edit', views.news_preview_cms_edit, name='news_preview_cms_edit'),
     path('news_preview_cms_delete', views.news_preview_cms_delete, name='news_preview_cms_delete'),
-]+static(settings.CLIENTIMAGE_ROOT,document_root = settings.CLIENTIMAGE_ROOT)
+]
 
 
 urlpatterns += [
@@ -45,4 +45,4 @@ urlpatterns += [
 #传奇的url
 urlpatterns += [
     path('legend',views_of_legend.legend,name="legend")
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

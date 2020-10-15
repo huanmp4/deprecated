@@ -84,7 +84,6 @@ TEMPLATES = [
     },
 ]
 
-#确定'builtins': 'django.templatetags.static',是要加中括号吗？
 
 WSGI_APPLICATION = 'xfz02.wsgi.application'
 
@@ -213,7 +212,10 @@ AUTH_USER_MODEL = 'register.User'
 # CLIENTIMAGE_URL = '/front/source/client_image/'
 # CLIENTIMAGE_ROOT = os.path.join(BASE_DIR,'front','source','client_image')
 CLIENTIMAGE_URL = '/images/'
-CLIENTIMAGE_ROOT = os.path.join(BASE_DIR,'images').replace('\\', '/')
+CLIENTIMAGE_ROOT = os.path.join(BASE_DIR, 'images').replace('\\', '/')
+MEDIA_URL = '/images/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'images').replace('\\', '/')
+
 
 
 

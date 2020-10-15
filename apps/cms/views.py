@@ -79,10 +79,14 @@ def image_upload_to_local(request):
     file = request.FILES.get('file')
     file_name = file.name.split('.')[1]
     file_name = str(int(time.time()*1000))+ '.' +file_name
-    with open(os.path.join(settings.CLIENTIMAGE_ROOT + '/' + file_name), 'wb') as f:
+    with open(os.path.join(settings.MEDIA_ROOT + '/' + file_name), 'wb') as f:
         for chunk in file.chunks():
             f.write(chunk)
-    url = request.build_absolute_uri(settings.CLIENTIMAGE_URL + file_name)
+
+    url = request.build_absolute_uri(settings.MEDIA_URL  + file_name)
+    url2,url3 = url.split("images")
+    url = url2 + "cms/images" +url3
+    print("url:",url2,url3)
     print(url)
     return restful.result(data={'url':url})
 
